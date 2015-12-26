@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5CB760"
+    tools:context=".Fragment.CatagoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+
+            android:textSize="30sp"
+            android:background="#1A4602"
+            android:textColor="#B60404"
+            android:layout_gravity="center_horizontal|top"
+            android:id="@+id/textView4"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The Bangladesh Road Transport Corporation (BRTC) is the state-owned transport corporation of Bangladesh.It was established under the Government Ordinance No.7 of 1961 dated 4 February 1961.Following the independence of Bangladesh in 1971, it assumed its current name.BRTC is a semi-autonomous corporation under the Ministry of Communication. The governing body includes the Communication Minister, the Communication Secretary, the Director of the corporation, and other officials.BRTC provides both passenger and cargo transport services.
+
+        BRTC operates three international bus services (Dhaka to Kolkata, Agartala, and Siliguri in India). Inside Bangladesh, it operates inter-district bus services through its bus depots in Chittagong, Bogra, Comilla, Pabna, Rangpur, Barisal, and Sylhet. It also operates intra-city bus services in many major cities of the country.For transportation of cargo, BRTC operates a fleet of 170 trucks. About twenty percent of the government food transport uses BRTC's trucks. The two main truck depots are located at Dhaka and Chittagong.BRTC's main driver training institute is located in Joydevpur, Gazipur District, about forty kilometres north of Dhaka. It also has several other training institutes located in Chittagong, Bogra, Khulna, and Jhenaidah. Through these institutes, BRTC provides training in basic car operation and repair."
+                android:id="@+id/textView5"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@android:color/background_dark"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

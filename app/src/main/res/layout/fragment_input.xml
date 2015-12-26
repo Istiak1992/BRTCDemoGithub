@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5CB760"
+    tools:context=".Fragment.InputFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Vehicle Input"
+            android:id="@+id/textViewType"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter Vehicle No"
+            android:ems="10"
+            android:id="@+id/editTextVehicleNo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Tire (Unit)"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:id="@+id/editTextTire" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="GearBox (unit)"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:id="@+id/editTexGearBox"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:hint="Mobil (Liter)"
+            android:layout_marginTop="5dp"
+            android:id="@+id/editTextMobil" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:hint="Oil (Liter)"
+            android:layout_marginTop="5dp"
+            android:id="@+id/editTextOil" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Engine (Unit)"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:id="@+id/editTextEngine" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="55dp"
+                android:text="Save"
+                android:onClick="Save"
+                android:id="@+id/buttonSave" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="55dp"
+                android:text="Show List"
+                android:onClick="Show"
+                android:id="@+id/buttonShowList" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base1"
+    tools:context=".Fragment.Base">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Menu From Navigation Drawer"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_gravity="center" />
+</FrameLayout>
